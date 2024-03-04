@@ -1,7 +1,7 @@
-let personName = "    MuhammadHamad    ";
+let personName = " \t\n   MuhammadHamad \t\n   ";
 
 console.log(personName);
 
-let noWhiteSpace = personName.replace(/\s/g , '');
+let noWhiteSpace = personName.trim();
 
 console.log(noWhiteSpace);

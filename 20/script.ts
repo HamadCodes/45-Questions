@@ -1,3 +1,3 @@
-let languages = ["urdu","english","french","spainish","japanese"]
+let languages = ["urdu","english","french","spanish","japanese"]
 
 console.log(languages)

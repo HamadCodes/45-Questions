@@ -1,10 +1,18 @@
 let languages = ["urdu","english","french","spainish","japanese"]
 
-function people(name, language, nationality){
-    this.name=name
-    this.language=language
-    this.nationality=nationality
-
+class people{
+    
+    name:string
+    language:string
+    nationality:string
+    
+    constructor(Name:string,Language:string,Nationality:string){
+        
+        this.name=Name
+        this.language=Language
+        this.nationality=Nationality
+    }
+    
 }
 
 let person1 = new people("waseem",languages[0],"pakistani")
